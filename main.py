@@ -31,9 +31,9 @@ def show_page():
     <html>
     <head><meta charset="utf-8"><title>Мониторинг воздуха</title></head>
     <body style="font-family:sans-serif;text-align:center;">
-      <h2>Данные с датчиков</h2>
-      <p>Температура: {data['temperature'] or '--'} °C</p>
-      <p>CO: {data['co'] or '--'} ppm</p>
+      <h2>Данные с датчиков кабинета информатики</h2>
+      <p>Температура в классе: {data['temperature'] or '00'} °C</p>
+      <p>Уровень CO: {data['co'] or '00'} ppm</p>
       <meta http-equiv="refresh" content="5">
     </body>
     </html>
